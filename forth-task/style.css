@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    text-align: justify;
+}
+
+.flex-container>div {
+    padding: 25px;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.title {
+    margin-bottom: -80px;
+    margin-left: 20px;
+    font-size: 47px;
+    font-family: Arial;
+}
+
+.midd-paragraph {
+    text-align: justify;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: -60px;
+    padding: 25px;
+}
+
+.last-container {
+    margin-top: -60px;
+}

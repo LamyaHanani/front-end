@@ -74,7 +74,7 @@
     
     .footer-sec {
         height: 70px;
-        width: 33.3%;
+        width: 33%;
         float: left;
     }
     
@@ -82,7 +82,7 @@
         margin-top: 20px;
         margin-left: 4px;
         color: lightcoral;
-        font-size: 22px;
+        font-size: 20px;
         float: left;
     }
     
@@ -92,10 +92,7 @@
         float: right;
     }
     
-    .number {
-        font-size: 10px;
-        color: white;
-        float: right;
-        margin-top: -10px;
-        margin-left: 15px;
+    .right-border {
+        border-right: 1px solid rgb(216, 128, 128, 0.2);
+        height: 70px;
     }

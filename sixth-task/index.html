@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card task</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <p class="title"><b>Application For Permission To Date My Daughter</b></p>
+            <p class="note"><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+            <fieldset class="fieldset1">
+                <legend>Personal Details</legend>
+                <form class="first-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter name here"><br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" placeholder="Enter address here"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter email here"><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" placeholder="Enter 10 digit numbers"><br>
+                    <label for="iq">IQ:</label>
+                    <input type="number" id="iq" placeholder="Enter IQ here"><br>
+                    <label>Gender</label><br>
+                    <input type="radio" id="male" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" value="other">
+                    <label for="other">Other</label><br>
+                    <label for="date">Date of Proposed Outing:</label>
+                    <input type="date" id="date" name="date"><br>
+
+                </form>
+            </fieldset>
+
+            <div class="second-box">
+
+                <form>
+                    <label>Check All That Apply </label> <br><br>
+                    <input type="checkbox" id="property1">
+                    <label for="property1"> I have tattoos and/or piercings</label><br>
+                    <input type="checkbox" id="property2">
+                    <label for="vehicle2"> I am more than 2 years older than your daughter</label><br>
+                    <input type="checkbox" id="property3">
+                    <label for="vehicle3"> I own a panel van or VB ute</label><br>
+                    <input type="checkbox" id="property4">
+                    <label for="vehicle3"> I work full-time</label><br>
+                    <input type="checkbox" id="property5">
+                    <label for="vehicle3"> My parents are rich</label><br>
+                    <input type="checkbox" id="property6">
+                    <label for="vehicle3"> Is the date at a well lit public location</label>
+
+                </form>
+
+            </div>
+            <div class="third-box">
+                <form>
+                    <label>Political Persuasion:</label>
+                    <select id="PP" name="PP">
+                        <option value="LW">Left Wing</option>
+                        <option value="RW">Right Wing</option>
+                      </select>
+                    <label>Educational Level Completed:</label>
+                    <select id="EL" name="EL">
+                        <option value="school">Scool</option>
+                        <option value="RW">University</option>
+                      </select>
+
+                </form>
+            </div>
+
+            <fieldset class="fieldset2">
+                <legend>Essay Section</legend>
+                <p class="fs2">In 50 words or more explain way you want to date my daughter</p>
+                <form>
+                    <textarea name="message1" rows="3" cols="40" placeholder="Enter text here "></textarea><br>
+                    <p class="fs2"> Please upload contact details for 2 references</p>
+                    <textarea name="message1" rows="3" cols="40" placeholder="Enter text here "></textarea><br>
+                    <label class="upload-tit"> Upload Police Clearance Certificate,Bank Statement and Medical Certificates here: <label>
+                    <input type="file" name="file" id="file" class="inputfile"/>
+                    <label for="file">Attach Files</label>
+                </form>
+            </fieldset>
+            <div class="send-button-div"> <button class="send-button">Send Your Application</button></div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

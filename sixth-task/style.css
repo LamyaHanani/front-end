@@ -1,0 +1,118 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 71, 0.3);
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(129, 117, 117, 0.253);
+    font-family: arial;
+    width: 700px;
+    height: 900px;
+    margin-top: 8px;
+}
+
+.title {
+    text-align: center;
+    font-size: 14px;
+}
+
+.note {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+fieldset {
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid rgba(129, 117, 117, 0.253);
+}
+
+.fieldset1 {
+    height: 250px;
+}
+
+legend {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.second-box {
+    border: 1px solid rgba(129, 117, 117, 0.253);
+    height: 160px;
+    margin: 6px 8px 0px 8px;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.third-box {
+    border: 1px solid rgba(129, 117, 117, 0.253);
+    height: 30px;
+    margin: 6px 8px 8px 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.fieldset2 {
+    height: 250px;
+}
+
+.fs2 {
+    font-size: 12px;
+}
+
+.send-button {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    border-color: red;
+}
+
+.send-button-div {
+    text-align: center;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 12px;
+}
+
+.first-form>input {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 3px;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    background-color: red;
+}
+
+.upload-tit {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 6px;
+}

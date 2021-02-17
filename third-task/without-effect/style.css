@@ -1,11 +1,13 @@
-#circle {
-border-radius: 50%;
+.Circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red, rgb(255, 0, 200) 20%, #0606a3f8, #00FFFF 50%, #00ff00 70%, yellow, red);
+}
 
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-height:200px;
-width:200px;
-background-image: linear-gradient(red ,rgb(255, 0, 200) 20%, #0606a3f8  ,#00FFFF 50%,#00ff00 70%,yellow,red);
+.Circle--Position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

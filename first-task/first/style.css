@@ -1,23 +1,22 @@
-.square1 {
-    background-color: red;
+.Square {
     width: 200px;
     height: 200px;
+}
+
+.Square--Square1 {
+    background-color: red;
     margin-top: 40px;
     margin-left: 40px;
 }
 
-.square2 {
+.Square--Square2 {
     background-color: blue;
-    width: 200px;
-    height: 200px;
     margin-top: -190px;
     margin-left: 70px;
 }
 
-.square3 {
+.Square--Square3 {
     background-color: rgb(217, 255, 0);
-    width: 200px;
-    height: 200px;
     margin-top: -190px;
     margin-left: 100px;
 }

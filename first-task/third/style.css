@@ -1,24 +1,24 @@
-.container div {
+.Square {
     position: absolute;
     width: 200px;
     height: 200px;
 }
 
-.square1 {
+.Square--Square1 {
     top: 40px;
     left: 40px;
     z-index: 1;
     background-color: red;
 }
 
-.square2 {
+.Square--Square2 {
     top: 70px;
     left: 70px;
     z-index: 2;
     background-color: blue;
 }
 
-.square3 {
+.Square--Square3 {
     top: 100px;
     left: 100px;
     z-index: 3;

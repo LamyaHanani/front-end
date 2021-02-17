@@ -55,7 +55,7 @@
     margin-right: 30px;
 }
 
-#city {
+.city {
     font-size: 10px;
     margin-bottom: 10px;
 }
@@ -84,9 +84,3 @@
 .icon {
     padding-right: 10px;
 }
-
-
-/* .right-border {
-    border-right: 1px solid rgb(216, 128, 128, 0.2);
-    height: 38px;
-} */

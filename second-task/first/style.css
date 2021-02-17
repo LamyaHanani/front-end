@@ -1,10 +1,13 @@
-#circle {
-border-radius: 50%;
-background-color: blue;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-height:200px;
-width:200px;
+.Circle {
+    border-radius: 50%;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.Circle--Position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -1,13 +1,15 @@
-.container {
+.Container {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
+    /*set container to full screen height*/
+    /* align-items: center; in this example we can use it insted of align-self */
 }
 
-.container>div {
+.Container__Circle {
     border-radius: 50%;
     background-color: blue;
     width: 200px;
     height: 200px;
+    align-self: center;
 }

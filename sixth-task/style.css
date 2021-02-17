@@ -1,10 +1,10 @@
-.main {
+body {
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 71, 0.3);
 }
 
-.card {
+.MainForm {
     background-color: white;
     border-radius: 10px;
     border: 2px solid rgba(129, 117, 117, 0.253);
@@ -14,12 +14,12 @@
     margin-top: 8px;
 }
 
-.title {
+.MainForm__Title {
     text-align: center;
     font-size: 14px;
 }
 
-.note {
+.MainForm__Note {
     margin-left: 10px;
     font-size: 11px;
 }
@@ -29,9 +29,6 @@ fieldset {
     margin-left: 8px;
     margin-right: 8px;
     border: 1px solid rgba(129, 117, 117, 0.253);
-}
-
-.fieldset1 {
     height: 250px;
 }
 
@@ -41,7 +38,22 @@ legend {
     font-weight: bold;
 }
 
-.second-box {
+.Form__FieldSet1>input {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.FieldSet2__Title {
+    font-size: 12px;
+}
+
+.FieldSet2__Title--Upload {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.Form__SecondBox {
     border: 1px solid rgba(129, 117, 117, 0.253);
     height: 160px;
     margin: 6px 8px 0px 8px;
@@ -50,7 +62,7 @@ legend {
     padding-bottom: 8px;
 }
 
-.third-box {
+.Form__ThirdBox {
     border: 1px solid rgba(129, 117, 117, 0.253);
     height: 30px;
     margin: 6px 8px 8px 8px;
@@ -58,15 +70,7 @@ legend {
     padding-top: 4px;
 }
 
-.fieldset2 {
-    height: 250px;
-}
-
-.fs2 {
-    font-size: 12px;
-}
-
-.send-button {
+.Form__SendButton {
     background-color: red;
     color: white;
     padding: 3px;
@@ -74,7 +78,7 @@ legend {
     border-color: red;
 }
 
-.send-button-div {
+.Form__SendButtonDiv {
     text-align: center;
     margin-top: 8px;
 }
@@ -83,12 +87,7 @@ label {
     font-size: 12px;
 }
 
-.first-form>input {
-    font-size: 12px;
-    margin-bottom: 6px;
-}
-
-.inputfile {
+.FieldSet2__InputFile {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -97,7 +96,7 @@ label {
     z-index: -1;
 }
 
-.inputfile+label {
+.FieldSet2__InputFile+label {
     font-size: 14px;
     font-weight: 700;
     color: white;
@@ -106,13 +105,7 @@ label {
     padding: 3px;
 }
 
-.inputfile:focus+label,
-.inputfile+label:hover {
+.FieldSet2__InputFile:focus+label,
+.FieldSet2__InputFile+label:hover {
     background-color: red;
-}
-
-.upload-tit {
-    font-size: 12px;
-    display: inline-block;
-    margin-top: 6px;
 }

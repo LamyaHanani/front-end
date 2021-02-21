@@ -1,0 +1,146 @@
+            body {
+                display: flex;
+                justify-content: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .Page {
+                width: 650px;
+                height: 900px;
+                background-color: lightcyan;
+                background: linear-gradient(to bottom, white 0%, white 60%, #f0f8ff 60%, #f0f8ff 100%);
+                /*border: 1px solid black;*/
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .Page__FirstC {
+                width: 650px;
+                height: 570px;
+                /*border: 1px solid red;*/
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+            }
+            
+            .FirstC__ArrowImC {
+                width: 150px;
+                /* border: 1px solid brown;*/
+                position: relative;
+            }
+            
+            .ArrowImC__Image {
+                position: absolute;
+                top: 430px;
+                left: 50px;
+                width: 30px;
+            }
+            
+            .FirstC__VerticalPart {
+                width: 350px;
+                height: 570px;
+                /* border: 1px solid palegreen; */
+                position: relative;
+            }
+            
+            .VerticalPart__LogoImage {
+                float: left;
+                margin-top: 60px;
+                width: 60px;
+                height: 30px;
+                margin-right: 4px;
+            }
+            
+            .VerticalPart__PointsImage {
+                width: 230px;
+                height: 180px;
+            }
+            
+            .VerticalPart__MenuImage {
+                position: absolute;
+                left: 330px;
+                top: 65px;
+            }
+            
+            .VerticalPart__Hello {
+                font-size: 8px;
+                margin-top: -45px;
+                float: left;
+            }
+            
+            .VerticalPart__Hello--M {
+                font-size: 65px;
+                font-weight: bold;
+            }
+            
+            .VerticalPart__SparkImage {
+                float: left;
+                margin-left: 45px;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+            
+            .VerticalPart__ImagesC {
+                width: 350px;
+                height: 280px;
+            }
+            
+            .ImagesC__ImageS {
+                width: 175px;
+                height: 140px;
+                float: left;
+            }
+            
+            .FirstC__ZigzagSigns {
+                width: 150px;
+                /* border: 1px solid brown; */
+                position: relative;
+            }
+            
+            .ZigzagSigns_PurpleSign {
+                position: absolute;
+                top: 300px;
+                left: -10px;
+                width: 30px;
+            }
+            
+            .ZigzagSigns_PinkSign {
+                position: absolute;
+                top: 490px;
+                left: -15px;
+                width: 30px;
+            }
+            
+            .Page__HorizontalC {
+                /* border: 1px solid blue; */
+                height: 250px;
+                width: 400px;
+                position: relative;
+                text-align: center;
+                font-size: 10px;
+            }
+            
+            .HorizontalC__BoldW {
+                word-spacing: 2px;
+                font-weight: bold;
+            }
+            
+            .HorizontalC__VerticalLine {
+                position: absolute;
+                top: 265px;
+                left: 200px
+            }
+            
+            .VerticalLine__Shape {
+                width: 1px;
+                height: 40px;
+                background: #78787873;
+                border: none;
+            }
+            
+            span {
+                margin-right: 20px;
+            }

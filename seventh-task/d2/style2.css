@@ -98,7 +98,7 @@
     }
     
     .Wrapper__ProgressBar {
-        width: 250px;
+        width: 20vw;
         background-color: black;
         border-radius: 10px;
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
@@ -139,6 +139,7 @@
         border-right: 1px solid rgb(34, 32, 32);
         padding: 40px;
         margin-right: 20px;
+        font-size: 16px;
     }
     
     .FooterC__P>span {
@@ -155,7 +156,7 @@
             width: 100%;
         }
         .Wrapper__ProgressBar {
-            width: 120px;
+            width: 25vw;
         }
         .PBContainer__Wrapper {
             margin-right: 20px;
@@ -166,6 +167,10 @@
         }
         .FooterC__P {
             padding: 15px;
-            font-size: 16px;
+            font-size: 14px;
+        }
+        .OverlayContainer__Texts,
+        .Texts__SecondT {
+            font-size: 12px;
         }
     }

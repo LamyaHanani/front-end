@@ -1,180 +1,189 @@
-    .Page__OverlayContainer {
-        background-color: rgba(0, 0, 0, 0.95);
-        color: white;
-        text-align: center;
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        /* display: none; */
+.Page__OverlayContainer {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    /* display: none; */
+}
+
+.OverlayContainer__FPart {
+    position: relative;
+}
+
+.OverlayContainter__CloseIcon {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    display: block;
+}
+
+.OverlayContainer__Arrow {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.OverlayContainer__Spark {
+    position: absolute;
+    top: 170px;
+    left: 15%;
+    height: 35px;
+}
+
+.FPart__PointsI {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.OverlayContainer__PersonalC {
+    display: flex;
+    justify-content: center;
+    margin-top: -135px;
+}
+
+.PersonalC__PersonalImage {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.PersonalC__DownloadB {
+    border-radius: 50%;
+    background-color: rgb(192, 17, 17);
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    margin-right: 4px;
+    margin-left: -20px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.PersonalC__Resume {
+    font-size: 8px;
+    font-weight: bold;
+    width: 5px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.OverlayContainer__Texts {
+    color: rgb(167, 159, 159);
+    font-size: 12px;
+    text-align: center;
+}
+
+.OverlayContainer__Texts>p>a {
+    color: darkturquoise;
+}
+
+.Texts__Span1 {
+    color: white;
+}
+
+.Texts__SecondT {
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.OverlayContainer__ProgressBars {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.PBContainer__Wrapper {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Wrapper__ProgressBar {
+    width: 25vw;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.ProgressBar__ProgressBarFill {
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+}
+
+.ProgressBar__ProgressBarFill--M1 {
+    background-color: purple;
+    width: 98%;
+}
+
+.ProgressBar__ProgressBarFill--M2 {
+    background-color: rgba(252, 227, 2, 0.726);
+    width: 70%;
+}
+
+.ProgressBar__ProgressBarFill--M3 {
+    background-color: rgb(14, 38, 109);
+    width: 60%;
+}
+
+.OverlayContainer__FooterC {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(34, 32, 32);
+}
+
+.FooterC__P {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-right: 1px solid rgb(34, 32, 32);
+    padding: 14px 6px 14px 6px;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+.FooterC__P>span {
+    font-size: 10px;
+}
+
+.FooterC__BlueS {
+    color: darkturquoise;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .Wrapper__ProgressBar {
+        width: 20vw;
     }
-    
-    .OverlayContainter__CloseIcon {
-        position: absolute;
-        top: 100px;
-        right: 350px;
-    }
-    
-    .OverlayContainer__Arrow {
-        position: absolute;
-        top: 250px;
-        right: 400px;
-        width: 40px;
-    }
-    
-    .OverlayContainer__Spark {
-        position: absolute;
-        top: 170px;
-        left: 500px;
-        height: 35px;
-    }
-    
-    .FPart__PointsI {
-        width: 450px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .OverlayContainer__PersonalC {
-        display: flex;
-        justify-content: center;
-        margin-top: -135px;
-    }
-    
-    .PersonalC__PersonalImage {
-        border-radius: 50%;
-        height: 150px;
-        width: 150px;
-        object-fit: cover;
-    }
-    
-    .PersonalC__DownloadB {
-        border-radius: 50%;
-        background-color: rgb(192, 17, 17);
-        width: 22px;
-        height: 22px;
-        text-align: center;
-        margin-right: 4px;
-        margin-left: -20px;
-        margin-top: 25px;
-        font-size: 16px;
-    }
-    
-    .PersonalC__Resume {
-        font-size: 8px;
-        font-weight: bold;
-        width: 5px;
-        margin-top: 25px;
-        letter-spacing: 1px;
-    }
-    
-    .OverlayContainer__Texts {
-        color: rgb(167, 159, 159);
-        font-size: 14px;
-        text-align: center;
-    }
-    
-    .OverlayContainer__Texts>p>a {
-        color: darkturquoise;
-    }
-    
-    .Texts__Span1 {
-        color: white;
-    }
-    
-    .Texts__SecondT {
-        font-size: 14px;
-        color: dimgrey;
-    }
-    
-    .OverlayContainer__ProgressBars {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-    
     .PBContainer__Wrapper {
         margin-right: 40px;
         margin-left: 40px;
     }
-    
-    .Wrapper__ProgressBar {
-        width: 20vw;
-        background-color: black;
-        border-radius: 10px;
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    .FPart__PointsI {
+        width: 450px;
     }
-    
-    .ProgressBar__ProgressBarFill {
-        display: block;
-        height: 3px;
-        border-radius: 3px;
-        transition: width 500ms ease-in-out;
-    }
-    
-    .ProgressBar__ProgressBarFill--M1 {
-        background-color: purple;
-        width: 98%;
-    }
-    
-    .ProgressBar__ProgressBarFill--M2 {
-        background-color: rgba(252, 227, 2, 0.726);
-        width: 70%;
-    }
-    
-    .ProgressBar__ProgressBarFill--M3 {
-        background-color: rgb(14, 38, 109);
-        width: 60%;
-    }
-    
-    .OverlayContainer__FooterC {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        border-top: 1px solid rgb(34, 32, 32);
-    }
-    
     .FooterC__P {
-        margin-top: 0;
-        margin-bottom: 0;
-        border-right: 1px solid rgb(34, 32, 32);
         padding: 30px;
         margin-right: 20px;
         font-size: 16px;
     }
-    
     .FooterC__P>span {
         font-size: 12px;
     }
-    
-    .FooterC__BlueS {
-        color: darkturquoise;
+    .OverlayContainer__Texts,
+    .Texts__SecondT {
+        font-size: 14px;
     }
-    
-    @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-        .Page__OverlayContainer {
-            width: 100%;
-        }
-        .Wrapper__ProgressBar {
-            width: 25vw;
-        }
-        .PBContainer__Wrapper {
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-        .FPart__PointsI {
-            width: 80%;
-        }
-        .FooterC__P {
-            padding: 10px 6px 10px 6px;
-            font-size: 14px;
-            margin-right: 0px;
-        }
-        .FooterC__P>span {
-            font-size: 10px;
-        }
-        .OverlayContainer__Texts,
-        .Texts__SecondT {
-            font-size: 12px;
-        }
+    .OverlayContainter__CloseIcon {
+        position: absolute;
+        top: 20px;
+        right: 20%;
+        display: block;
     }
+    .OverlayContainer__Spark {
+        left: 35%;
+    }
+}

@@ -137,7 +137,7 @@
         margin-top: 0;
         margin-bottom: 0;
         border-right: 1px solid rgb(34, 32, 32);
-        padding: 40px;
+        padding: 30px;
         margin-right: 20px;
         font-size: 16px;
     }
@@ -166,9 +166,12 @@
             width: 80%;
         }
         .FooterC__P {
-            padding: 15px;
+            padding: 10px;
             font-size: 14px;
             margin-right: 0px;
+        }
+        .FooterC__P>span {
+            font-size: 10px;
         }
         .OverlayContainer__Texts,
         .Texts__SecondT {

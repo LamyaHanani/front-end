@@ -10,33 +10,7 @@ body {
     position: relative;
 }
 
-.Page__Spark {
-    position: absolute;
-    top: 270px;
-    right: 500px;
-}
-
-.Page__Arrow {
-    position: absolute;
-    top: 650px;
-    left: 290px;
-}
-
-.Page__Zigzag1 {
-    position: absolute;
-    top: 400px;
-    right: 360px;
-}
-
-.Page__Zigzag2 {
-    position: absolute;
-    top: 770px;
-    right: 360px;
-}
-
-.FirstSection {
-    width: 100%;
-}
+.FirstSection {}
 
 .FirstSection__LogoImg {
     margin-bottom: 105px;
@@ -44,7 +18,7 @@ body {
 }
 
 .FirstSection__PointsImg {
-    width: 60%;
+    width: 50%;
     height: 200px;
     object-fit: cover;
 }

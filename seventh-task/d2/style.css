@@ -5,9 +5,9 @@ body {
 
 .Page {
     /* background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%); */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     position: relative;
 }
 
@@ -85,7 +85,7 @@ button {
 }
 
 .Footer__SocialM {
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     font-size: 10px;
     display: flex;
     color: gainsboro;

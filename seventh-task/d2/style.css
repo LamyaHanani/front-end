@@ -5,9 +5,9 @@ body {
 
 .Page {
     /* background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%); */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     position: relative;
 }
 
@@ -19,14 +19,14 @@ body {
 }
 
 .FirstSection__PointsImg {
-    width: 50%;
+    width: 55%;
     height: 220px;
     object-fit: cover;
 }
 
 .FirstSection__MenuImg {
     margin-bottom: 115px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .FirstSection__P {

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Page {
+    background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    position: relative;
+}
+
+.Page__Spark {
+    position: absolute;
+    top: 270px;
+    right: 500px;
+}
+
+.Page__Arrow {
+    position: absolute;
+    top: 650px;
+    left: 290px;
+}
+
+.Page__Zigzag1 {
+    position: absolute;
+    top: 400px;
+    right: 360px;
+}
+
+.Page__Zigzag2 {
+    position: absolute;
+    top: 770px;
+    right: 360px;
+}
+
+.FirstSection {
+    width: 100%;
+}
+
+.FirstSection__LogoImg {
+    margin-bottom: 105px;
+    margin-right: 10px;
+}
+
+.FirstSection__PointsImg {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.FirstSection__MenuImg {
+    margin-bottom: 115px;
+    margin-left: 25px;
+}
+
+.FirstSection__P {
+    font-size: 12px;
+    color: rgb(161, 156, 156);
+    margin-top: -70px;
+}
+
+.FirstSection__Hello {
+    font-size: 100px;
+    color: black;
+}
+
+.Page__SecondSection {
+    width: 100%;
+}
+
+.SecondSection__Image {
+    width: 50%;
+    height: 260px;
+    float: left;
+}
+
+.SecondSection__SP {
+    display: none;
+}
+
+.SecondSection__Button {
+    margin-left: 46%;
+}
+
+button {
+    border-radius: 50%;
+    height: 15px;
+}
+
+.Page__Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.Footer__Load {
+    letter-spacing: 12px;
+    font-size: 16px;
+}
+
+.Footer__P {
+    font-size: 12px;
+    color: rgb(161, 156, 156);
+}
+
+.Footer__P--M {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.Footer__SocialM {
+    letter-spacing: 8px;
+    font-size: 12px;
+    display: flex;
+    color: gainsboro;
+}
+
+.Footer__SocialM>a {
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.Footer__VerticalLine {
+    width: 1px;
+    height: 35px;
+    background: black;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}

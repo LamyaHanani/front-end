@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seventh task</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- <link href="style2.css" rel="stylesheet" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Page">
+        <div class="Page__FirstSection">
+            <img src="../images/logo.png" alt="logo img here" class="FirstSection__LogoImg">
+            <img src="../images/points.png" alt="img here" class="FirstSection__PointsImg">
+            <input type="image" src="../images/menu.png" alt="menu button" class="FirstSection__MenuImg" onclick="menuf()">
+            <p class="FirstSection__P">
+                <Label class="FirstSection__Hello">Hello,</Label><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit Mauris<br>fringilla porta tortor eget.</p>
+        </div><br><br><br>
+
+        <div class="Page__SecondSection">
+            <div class="SecondSection__FP" id="fp">
+                <a href="https://en.wikipedia.org/wiki/Umm_Kulthum" target="_blank"><img src="../images/omk.jpg" class="SecondSection__Image" alt="image" title="Om Kalthoom"></a>
+                <a href="https://en.wikipedia.org/wiki/Fairuz" target="_blank"> <img src="../images/fai.jpg" class="SecondSection__Image" alt="image" title="Fairoz"></a>
+                <a href="https://en.wikipedia.org/wiki/Soad_Hosny" target="_blank"><img src="../images/sh.jpg" class="SecondSection__Image" alt="image" title="Soad Hosny"></a>
+                <a href="https://en.wikipedia.org/wiki/Sabah_(singer)" target="_blank"><img src="../images/sabah.jpg" class="SecondSection__Image" alt="image" title="Sabah"></a>
+            </div>
+            <div class="SecondSection__SP" id="sp">
+                <a href="https://en.wikipedia.org/wiki/Abdel_Halim_Hafez" target="_blank"><img src="../images/abd.jpg" class="SecondSection__Image" alt="image" title="Abdel_Halim_Hafez"></a>
+                <a href="https://en.wikipedia.org/wiki/Wadih_El_Safi" target="_blank"><img src="../images/wdea.jpeg" class="SecondSection__Image" alt="image" title="Wadih_El_Safi"></a>
+                <a href="https://en.wikipedia.org/wiki/Mohammed_Abdel_Wahab" target="_blank"><img src="../images/mabd.jpg" class="SecondSection__Image" alt="image" title="Mohammed_Abdel_Wahab"></a>
+                <a href="https://en.wikipedia.org/wiki/Farid_al-Atrash" target="_blank"><img src="../images/fareed.jpg" class="SecondSection__Image" alt="image" title="Farid_al-Atrash"></a>
+            </div>
+            <div class="SecondSection__Button">
+                <button id="fb"></button>
+                <button id="sb"></button>
+            </div>
+        </div>
+        <div class="Page__Footer">
+            <p class="Footer__Load">LOADING</p>
+            <p class="Footer__Image"> <img src="../images/phone.png" alt="phone image"></p>
+            <h1>1.800.123.456</h1>
+            <p class="Footer__P">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua <a class="Footer__P--M" href=" ">contactme@mysite.com</a></p>
+            <br>
+            <div class="Footer__SocialM">
+                <a href="https://www.facebook.com" target="_blank">FACEBOOK</a>
+                <label>|</label>
+                <a href="https://www.twitter.com" target="_blank">TWITTER</a>
+                <label>|</label>
+                <a href="https://dribbble.com" target="_blank">DRIBBLE</a>
+            </div>
+
+            <hr class="Footer__VerticalLine"></hr>
+
+        </div>
+
+        <!-- <img class="Page__Spark" src="../images/spark.png" alt="particle here">
+        <img class="Page__Arrow" src="../images/arrow.png" alt="particle here">
+        <img class="Page__Zigzag1" src="../images/zig1.png" alt="particle here">
+        <img class="Page__Zigzag2" src="../images/zig2.png" alt="particle here"> -->
+
+        <!-- <div class="Page__OverlayContainer" id="overlayc">
+
+            <div class="OverlayContainer__FPart">
+                <img src="../images/points.png" alt="imag here" class="FPart__PointsI">
+                <label class="OverlayContainter__CloseIcon">X</label>
+                <img src="../images/arrow.png" alt="image" class="OverlayContainer__Arrow">
+                <img src="../images/spark.png" alt="image here" class="OverlayContainer__Spark">
+
+
+            </div>
+
+            <div class="OverlayContainer__PersonalC">
+                <img class="PersonalC__PersonalImage" src="../images/fai.jpg" alt="img">
+                <div class="PersonalC__DownloadB">↓</div>
+                <label class="PersonalC__Resume">DOWNLOAD RESUME</label>
+            </div>
+
+            <div class="OverlayContainer__Texts">
+                <p>
+                    <h1>Hello, i'm <span class="Texts__Span1">John <b>Smith</b></span></h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> sed do eiusmod tempor incididunt ut.</p>
+                <p class="Texts__SecondT">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<a href=""> Contact me</a></p>
+            </div>
+
+            <div class="OverlayContainer__ProgressBars">
+                <div class="ProgressBars__PBContainer">
+                    <h6>PHOTOSHOP</h6>
+                    <div class="PBContainer__Wrapper">
+                        <div class="Wrapper__ProgressBar">
+                            <span class="ProgressBar__ProgressBarFill ProgressBar__ProgressBarFill--M1"></span>
+                        </div>
+                        <P>98%</P>
+                    </div>
+                </div>
+                <div class="ProgressBars__PBContainer">
+                    <h6>ILLUSTRATOR</h6>
+                    <div class="PBContainer__Wrapper">
+                        <div class="Wrapper__ProgressBar">
+                            <span class="ProgressBar__ProgressBarFill ProgressBar__ProgressBarFill--M2"></span>
+                        </div>
+                        <P>70%</P>
+                    </div>
+                </div>
+                <div class="ProgressBars__PBContainer">
+                    <h6>HTML/CSS</h6>
+                    <div class="PBContainer__Wrapper">
+                        <div class="Wrapper__ProgressBar">
+                            <span class="ProgressBar__ProgressBarFill ProgressBar__ProgressBarFill--M3"></span>
+                        </div>
+                        <P>60%</P>
+                    </div>
+                </div>
+            </div>
+            <div class="OverlayContainer__FooterC">
+
+                <P class="FooterC__P">2000 - 2008 <br><span>Jr.Graphic Designer | <span class="FooterC__BlueS">ABC Inc</span></span>
+                </P>
+                <p class="FooterC__P">2008 - 2010 <br><span>Graphic Specialist | <span class="FooterC__BlueS">GRAPHICSTUDIO</span></span>
+                </p>
+                <p class="FooterC__P" style="border:none;">2010 - Present <br><span>Creative Director | <span class="FooterC__BlueS">DESIGN ARTS</span></span>
+                </p>
+            </div> -->
+
+    </div>
+
+
+    </div>
+    <script>
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("sb").onclick = function() {
+            myFunction()
+        };
+        document.getElementById("fb").onclick = function() {
+            myFunction2()
+        };
+
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function myFunction() {
+            document.getElementById("sb").style.backgroundColor = "darkturquoise";
+            document.getElementById("fb").style.backgroundColor = "white";
+            document.getElementById("fp").style.display = "none";
+            document.getElementById("sp").style.display = "block";
+        }
+
+        function myFunction2() {
+            document.getElementById("fb").style.backgroundColor = "darkturquoise";
+            document.getElementById("sb").style.backgroundColor = "white";
+            document.getElementById("fp").style.display = "block";
+            document.getElementById("sp").style.display = "none";
+        }
+
+        function menuf() {
+
+            document.getElementById("overlayc").style.display = "block";
+
+        }
+
+        function closef() {
+            document.getElementById("overlayc").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

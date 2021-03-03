@@ -5,9 +5,9 @@ body {
 
 .Page {
     /* background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%); */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     position: relative;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .FirstSection__PointsImg {
-    width: 60%;
+    width: 50%;
     height: 220px;
     object-fit: cover;
 }
@@ -44,7 +44,7 @@ body {
 
 .SecondSection__Image {
     width: 50%;
-    height: 240px;
+    height: 220px;
     float: left;
 }
 

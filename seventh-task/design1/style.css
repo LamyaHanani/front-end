@@ -1,37 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%);
 }
 
 .Page {
-    background: linear-gradient(to bottom, white 0%, white 55%, #f0f8ff 55%, #f0f8ff 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-}
-
-.Page__Spark {
-    position: absolute;
-    top: 270px;
-    right: 500px;
-}
-
-.Page__Arrow {
-    position: absolute;
-    top: 650px;
-    left: 290px;
-}
-
-.Page__Zigzag1 {
-    position: absolute;
-    top: 400px;
-    right: 360px;
-}
-
-.Page__Zigzag2 {
-    position: absolute;
-    top: 770px;
-    right: 360px;
 }
 
 .FirstSection__LogoImg {
@@ -40,14 +16,14 @@ body {
 }
 
 .FirstSection__PointsImg {
-    width: 330px;
-    height: 200px;
+    width: 50%;
+    height: 220px;
     object-fit: cover;
 }
 
 .FirstSection__MenuImg {
     margin-bottom: 115px;
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
 .FirstSection__P {
@@ -57,17 +33,17 @@ body {
 }
 
 .FirstSection__Hello {
-    font-size: 120px;
+    font-size: 100px;
     color: black;
 }
 
 .Page__SecondSection {
-    width: 500px;
+    width: 80%;
 }
 
 .SecondSection__Image {
-    width: 250px;
-    height: 260px;
+    width: 50%;
+    height: 220px;
     float: left;
 }
 
@@ -76,7 +52,7 @@ body {
 }
 
 .SecondSection__Button {
-    margin-left: 230px;
+    margin-left: 46%;
 }
 
 button {
@@ -98,7 +74,7 @@ button {
 }
 
 .Footer__P {
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(161, 156, 156);
 }
 
@@ -108,8 +84,8 @@ button {
 }
 
 .Footer__SocialM {
-    letter-spacing: 8px;
-    font-size: 12px;
+    letter-spacing: 6px;
+    font-size: 10px;
     display: flex;
     color: gainsboro;
 }
@@ -117,8 +93,8 @@ button {
 .Footer__SocialM>a {
     text-decoration: none;
     color: black;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .Footer__VerticalLine {
@@ -128,4 +104,64 @@ button {
     border: none;
     margin-top: 50px;
     margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+    .FirstSection__PointsImg {
+        width: 330px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .FirstSection__Hello {
+        font-size: 120px;
+        color: black;
+    }
+    .Page__SecondSection {
+        width: 500px;
+    }
+    .SecondSection__Image {
+        width: 250px;
+        height: 260px;
+        float: left;
+    }
+    .Footer__P {
+        font-size: 12px;
+    }
+    .Footer__SocialM {
+        letter-spacing: 8px;
+        font-size: 12px;
+    }
+    .FirstSection__MenuImg {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .FirstSection__PointsImg {
+        width: 530px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .FirstSection__Hello {
+        font-size: 130px;
+        color: black;
+    }
+    .Page__SecondSection {
+        width: 700px;
+    }
+    .SecondSection__Image {
+        width: 350px;
+        height: 260px;
+        float: left;
+    }
+    .Footer__P {
+        font-size: 14px;
+    }
+    .Footer__SocialM {
+        letter-spacing: 8px;
+        font-size: 14px;
+    }
+    .FirstSection__MenuImg {
+        margin-left: 25px;
+    }
 }

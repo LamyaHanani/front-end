@@ -1,0 +1,72 @@
+.mr-6 {
+  margin-right: 10rem;
+}
+
+.ml-6 {
+  margin-left: 10rem;
+}
+
+.font {
+  font-size: 0.8rem;
+}
+
+.img-s {
+  width: 8vw;
+  height: 6vw;
+}
+
+.top-border {
+  border-top: none !important;
+}
+
+.buttons {
+  background-color: rgba(172, 21, 21, 0.8);
+  color: white;
+  height: 45px;
+  border: none;
+  padding: 10px;
+}
+
+.email-box {
+  height: 180px;
+  background-color: rgba(241, 239, 239, 0.7);
+}
+
+.email-add {
+  width: 40vw;
+  height: 40px;
+  border: none;
+}
+
+.sub-button {
+  background-color: rgba(187, 23, 23, 0.932);
+  border: none;
+  height: 40px;
+  color: white;
+  width: 150px;
+}
+
+.hr-color {
+  color: gainsboro;
+}
+
+.bg-lightdark {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.payment-icons {
+  font-size: 20px;
+}
+
+.text-gray {
+  color: dimgrey;
+}
+
+.nav-icons {
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */
